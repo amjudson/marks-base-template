@@ -10,7 +10,28 @@ export const getPayload = (url, method, caller, body) => {
     }
   }).then((res) => {
     if (res.ok) {
-      return res.json();
+      return res;
+    } else {
+      throw new Error(`${caller} by response was not OK.`);
+    }
+  }).then((data) => {
+    return data;
+  });
+};
+
+
+export const getPayloadJson = (url, method, caller, body) => {
+  return fetch(url, {
+    //mode: 'cors',
+    method: `${method}`,
+    body: JSON.stringify(body),
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    }
+  }).then((res) => {
+    if (res.ok) {
+      return res;
     } else {
       throw new Error(`${caller} by response was not OK.`);
     }

@@ -6,15 +6,11 @@ import StudentForm from '../../components/student/studentForm';
 class StudentFormManager extends React.Component {
   constructor(props) {
     super(props);
+
+    this.props.dispatch(actions.getStudentById(this.props.match.params.id));
   };
 
-  componentDidMount() {
-    this.props.dispatch(actions.getStudentById(this.props.match.params.id));
-  }
-
   render() {
-    console.log('Match:', this.props.match);
-    console.log('student:', this.props.student);
     const { student } = this.props;
     return (
       <div>

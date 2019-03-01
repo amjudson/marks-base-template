@@ -28,8 +28,6 @@ const body = (
 )
 
 if (node1) {
-  console.log('Entering application...');
-  console.log('Store...', store);
   ReactDOM.render(
     <Provider store={store}>
       <Router history={history}>

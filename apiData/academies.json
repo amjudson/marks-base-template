@@ -1,0 +1,50 @@
+[
+  {
+    "academyId": 1,
+    "name": "Destin TaeKwonDo ",
+    "description": "The best place to learn the Martial Arts.",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  },
+  {
+    "academyId": 2,
+    "name": "Santa Rosa Beach TaeKwonDo ",
+    "description": "The best TKD studio in the area",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  },
+  {
+    "academyId": 3,
+    "name": "Best Martial Arts",
+    "description": "We teach it ALL.",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  },
+  {
+    "academyId": 4,
+    "name": "Drunken Boxing",
+    "description": "Here you must be able to drink heavily to participate.",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  },
+  {
+    "academyId": 61,
+    "name": "DELETE ME",
+    "description": "Delete this",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  },
+  {
+    "academyId": 62,
+    "name": "Pensacola Fighting Club",
+    "description": "The place to fight and get in shape",
+    "AcademyAddresses": null,
+    "AcademyEmails": null,
+    "AcademyPhones": null
+  }
+]

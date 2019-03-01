@@ -4,7 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const GLOBALS = {
-  'process.env.API_HOST': JSON.stringify('http://localhost/MartialArts/api')
+  'process.env.API_HOST': JSON.stringify('http://localhost/MartialArts/api'),
+  'process.env.API_MOCK': JSON.stringify('http://localhost:3030/apidata')
 };
 
 module.exports = {

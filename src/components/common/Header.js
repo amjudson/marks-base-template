@@ -4,7 +4,7 @@ class Header extends PureComponent {
   render() {
     return (
       <header className='navbar'>
-        <h3><strong>People Tracking System</strong></h3>
+        <h3><strong>Mark's Base Template</strong></h3>
       </header>
     );
   }

@@ -1,0 +1,22 @@
+[
+  {
+    "studentStatusId": 1,
+    "academyId": 1,
+    "description": "Student"
+  },
+  {
+    "studentStatusId": 2,
+    "academyId": 1,
+    "description": "Instructor"
+  },
+  {
+    "studentStatusId": 3,
+    "academyId": 1,
+    "description": "Instructor Trainee"
+  },
+  {
+    "studentStatusId": 4,
+    "academyId": 1,
+    "description": "Chief Instructor"
+  }
+]

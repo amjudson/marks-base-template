@@ -1,0 +1,168 @@
+[  {
+    "rankId": 1,
+    "abbreviation": "W",
+    "description": "White Belt",
+    "priority": 1,
+    "grouping": 100,
+    "academyId": 1
+  },
+  {
+    "rankId": 2,
+    "abbreviation": "Y",
+    "description": "Yellow",
+    "priority": 2,
+    "grouping": 100,
+    "academyId": 1
+  },
+  {
+    "rankId": 3,
+    "abbreviation": "G",
+    "description": "Green",
+    "priority": 1,
+    "grouping": 200,
+    "academyId": 1
+  },
+  {
+    "rankId": 4,
+    "abbreviation": "SG",
+    "description": "Senior Green",
+    "priority": 2,
+    "grouping": 200,
+    "academyId": 1
+  },
+  {
+    "rankId": 5,
+    "abbreviation": "B",
+    "description": "Blue",
+    "priority": 1,
+    "grouping": 300,
+    "academyId": 1
+  },
+  {
+    "rankId": 6,
+    "abbreviation": "SB",
+    "description": "Senior Blue",
+    "priority": 2,
+    "grouping": 300,
+    "academyId": 1
+  },
+  {
+    "rankId": 7,
+    "abbreviation": "Br",
+    "description": "Brown",
+    "priority": 1,
+    "grouping": 400,
+    "academyId": 1
+  },
+  {
+    "rankId": 8,
+    "abbreviation": "SBr",
+    "description": "Senior Brown",
+    "priority": 2,
+    "grouping": 400,
+    "academyId": 1
+  },
+  {
+    "rankId": 9,
+    "abbreviation": "P",
+    "description": "Purple",
+    "priority": 1,
+    "grouping": 500,
+    "academyId": 1
+  },
+  {
+    "rankId": 10,
+    "abbreviation": "SP",
+    "description": "Senior Purple",
+    "priority": 2,
+    "grouping": 500,
+    "academyId": 1
+  },
+  {
+    "rankId": 11,
+    "abbreviation": "R",
+    "description": "Red",
+    "priority": 1,
+    "grouping": 600,
+    "academyId": 1
+  },
+  {
+    "rankId": 12,
+    "abbreviation": "SR",
+    "description": "Senior Red",
+    "priority": 2,
+    "grouping": 600,
+    "academyId": 1
+  },
+  {
+    "rankId": 13,
+    "abbreviation": "1P",
+    "description": "Probationary 1st",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 14,
+    "abbreviation": "1D",
+    "description": "Decided 1st",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 15,
+    "abbreviation": "2D",
+    "description": "Decided 2nd",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 16,
+    "abbreviation": "2S",
+    "description": "Senior 2nd",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 17,
+    "abbreviation": "3rd",
+    "description": "Third",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 18,
+    "abbreviation": "3S",
+    "description": "Senior 3rd",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 19,
+    "abbreviation": "4D",
+    "description": "Decided 4th",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 20,
+    "abbreviation": "4S",
+    "description": "Senior 4th",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  },
+  {
+    "rankId": 24,
+    "abbreviation": "5th",
+    "description": "Fifth Degree ",
+    "priority": 1,
+    "grouping": 700,
+    "academyId": 1
+  }]

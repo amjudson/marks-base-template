@@ -5,8 +5,8 @@ class Home extends PureComponent {
   render() {
     return (
       <div className="jumbotron">
-        <h3>Mark&apos;s People Tracking System</h3>
-        <p>Using React to produce a responsive and interactive People Tracking/Manager System.</p>
+        <h3>Mark&apos;s Base React Template</h3>
+        <p>Using React to produce a responsive and interactive Website.</p>
         <Link to="about" className="btn btn-primary btn-lg">Learn More</Link>
       </div>
     );

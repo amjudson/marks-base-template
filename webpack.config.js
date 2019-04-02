@@ -20,9 +20,9 @@ module.exports = {
   target: 'web',
   output: {
     // save the bundle here
-    path: path.resolve(__dirname, 'dist'),
-    publicPath:  path.resolve(__dirname, '/'),
     filename: 'bundle.js',
+    publicPath: '/',
+    path: path.resolve(__dirname, 'dist')
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'src'),
@@ -30,27 +30,19 @@ module.exports = {
     port: 3030
   },
   plugins: [
-    new webpack.DefinePlugin(GLOBALS),
     new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin(GLOBALS),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      inject: false,
-      template: require('html-webpack-template'),
-      appMountId: 'container',
-      headHtmlSnippet:
-        '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" >',
-      // default div id="app"
-      // bodyHtmlSnippet: '<div id="container"></div>',
-      meta: [
-        {
-          name: 'description',
-          content:
-            'A better default template for html-webpack-plugin.'
-        }
-      ],
-      lang: 'en-US',
-      title: 'Webpack Examples',
+      template: 'src/index.html'
     })
   ],
+  resolve: {
+    alias: {
+      assets: path.resolve(__dirname, 'src/assets/'),
+      localcss: path.resolve(__dirname, 'src/css/')
+    }
+  },
   module: {
     rules: [
       {
@@ -63,10 +55,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' }
-        ]
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
       },
       {
         test: /\.(scss)$/,
@@ -84,6 +73,22 @@ module.exports = {
           { loader: 'css-loader' },
           { loader: 'less-loader' }
         ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: ['file-loader']
+      },
+      {
+        test: /\.(csv|tsv)$/,
+        use: ['csv-loader']
+      },
+      {
+        test: /\.xml$/,
+        use: ['xml-loader']
       }
     ]
   }

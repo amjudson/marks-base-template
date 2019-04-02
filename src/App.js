@@ -24,29 +24,31 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='app'>
         <Header />
-        <SimpleNavigation />
-        <main className='main'>
-          <Switch>
-            <Route path='/' component={Home} exact />
-            <Route path='/student/:id' component={StudentFormManager} />
-            <Route
-              path='/student'
-              render={() => {
-                return <StudentManager />;
-              }}
-            />
-            <Route
-              path='/academy'
-              render={() => {
-                return <AcademyManager  />;
-              }}
-            />
-            <Route path='/about' component={About} />
-            <Route component={PageNotFound} />
-          </Switch>
-        </main>
+        <div className='app-body'>
+          <SimpleNavigation />
+          <main className='main'>
+            <Switch>
+              <Route path='/' component={Home} exact />
+              <Route path='/student/:id' component={StudentFormManager} />
+              <Route
+                path='/student'
+                render={() => {
+                  return <StudentManager />;
+                }}
+              />
+              <Route
+                path='/academy'
+                render={() => {
+                  return <AcademyManager />;
+                }}
+              />
+              <Route path='/about' component={About} />
+              <Route component={PageNotFound} />
+            </Switch>
+          </main>
+        </div>
       </div>
     );
   }
